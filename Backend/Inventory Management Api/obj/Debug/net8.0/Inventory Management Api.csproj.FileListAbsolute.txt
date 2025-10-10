@@ -1,0 +1,88 @@
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/appsettings.Development.json
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/appsettings.json
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/global.json
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Inventory Management Api
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Inventory Management Api.deps.json
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Inventory Management Api.runtimeconfig.json
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Inventory Management Api.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Inventory Management Api.pdb
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.csproj.AssemblyReference.cache
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.AssemblyInfoInputs.cache
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.AssemblyInfo.cs
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.csproj.CoreCompileInputs.cache
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.MvcApplicationPartsAssemblyInfo.cs
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.MvcApplicationPartsAssemblyInfo.cache
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets.build.json
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets.development.json
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets/msbuild.Inventory Management Api.Microsoft.AspNetCore.StaticWebAssets.props
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets/msbuild.build.Inventory Management Api.props
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Inventory Management Api.props
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Inventory Management Api.props
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/staticwebassets.pack.json
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/scopedcss/bundle/Inventory Management Api.styles.css
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventor.7FC910DE.Up2Date
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.dll
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/refint/Inventory Management Api.dll
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.pdb
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/Inventory Management Api.genruntimeconfig.cache
+/home/rdario921/RiderProjects/Inventory Management Api/obj/Debug/net8.0/ref/Inventory Management Api.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Azure.Core.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Azure.Identity.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.ClientModel.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Drawing.Common.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Formats.Asn1.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.IO.Pipelines.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Memory.Data.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Runtime.Caching.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Text.Encodings.Web.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Text.Json.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/System.Windows.Extensions.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/home/rdario921/RiderProjects/Inventory Management Api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll

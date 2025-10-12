@@ -10,13 +10,10 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.9" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="9.0.9" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.9">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.9" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
           <PrivateAssets>all</PrivateAssets>
@@ -25,15 +22,6 @@
         <PackageReference Include="Scalar.AspNetCore" Version="2.8.11" />
         <PackageReference Include="Scalar.AspNetCore.Microsoft" Version="2.8.11" />
         <PackageReference Include="Scalar.AspNetCore.Swashbuckle" Version="2.8.11" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="src\Application\Mappers\" />
-      <Folder Include="src\Application\Ports\" />
-      <Folder Include="src\Application\UseCases\Products\" />
-      <Folder Include="src\Domain\Exceptions\" />
-      <Folder Include="src\Domain\Interfaces\" />
-      <Folder Include="src\Infrastructure\Persistence\Configurations\" />
     </ItemGroup>
 
 </Project>

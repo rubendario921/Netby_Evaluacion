@@ -1,0 +1,41 @@
+using Application.DTOs;
+using Application.Services;
+using Microsoft.AspNetCore.Mvc;
+
+namespace inventory_management_api.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+[Produces("application/json")]
+public class ProductController : Controller
+{
+    private readonly IProductService _productService;
+    private readonly ILogger<ProductController> _logger;
+
+    public ProductController(IProductService productService, ILogger<ProductController> logger)
+    {
+        _productService = productService;
+        _logger = logger;
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<ProductoDto>>> GetAllProductsAsync()
+    {
+        var products = await _productService.GetAllProductsAsync();
+        return Ok(products);
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<ProductoDto>> GetProductByIdAsync([FromBody] string id)
+    {
+        var product = await _productService.GetProductByIdAsync(id);
+        return Ok(product);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<ProductoDto>> CreateProductAsync([FromBody] ProductoDto productDto)
+    {
+        var product = await _productService.CreateProductAsync(productDto);
+        return CreatedAtAction(nameof(GetProductByIdAsync), new { id = product.Id }, product);
+    }
+}

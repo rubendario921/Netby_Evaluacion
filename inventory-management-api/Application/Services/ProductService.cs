@@ -8,7 +8,7 @@ public class ProductService(IProductRepository repository) : IProductService
 {
     private readonly IProductRepository _repository = repository;
 
-    public async Task<IEnumerable<ProductoDto>> GetAllProductsAsync()
+    public async Task<IEnumerable<ProductDto>> GetAllProductsAsync()
     {
         try
         {
@@ -22,7 +22,7 @@ public class ProductService(IProductRepository repository) : IProductService
         }
     }
 
-    public async Task<ProductoDto> GetProductByIdAsync(string id)
+    public async Task<ProductDto> GetProductByIdAsync(string id)
     {
         if (string.IsNullOrEmpty(id)) throw new ArgumentNullException(nameof(id), "Error this data is required");
         try
@@ -37,22 +37,23 @@ public class ProductService(IProductRepository repository) : IProductService
         }
     }
 
-    public async Task<ProductoDto> CreateProductAsync(ProductoDto productDto)
+    public async Task<ProductDto> CreateProductAsync(ProductDto productDto)
     {
         if (productDto == null) throw new ArgumentNullException(nameof(productDto), "Error this data is required");
         try
         {
-            var product = new Producto()
+            var product = new Product()
             {
-                Nombre = productDto.Nombre,
-                Descripcion = productDto.Descripcion,
-                Categoria = productDto.Categoria,
-                Imagen = productDto.Imagen,
-                Precio = productDto.Precio,
+                Name = productDto.Name,
+                Code = productDto.Code,
+                Description = productDto.Description,
+                Category = productDto.Category,
+                Image = productDto.Image,
+                Price = productDto.Price,
                 Stock = productDto.Stock,
-                Estado = productDto.Estado,
-                FechaCreacion = productDto.FechaCreacion,
-                UsuarioCreacion = productDto.UsuarioCreacion,
+                Status = productDto.Status,
+                CreationDate = productDto.CreationDate,
+                UserCreation = productDto.UserCreation ?? "System Default",
             };
             var response = await _repository.CreateAsync(product);
             return response == null ? throw new Exception("Product not created") : MapToDto(response);
@@ -64,7 +65,7 @@ public class ProductService(IProductRepository repository) : IProductService
         }
     }
 
-    public async Task<ProductoDto> UpdateProductAsync(string id, ProductoDto productDto)
+    public async Task<ProductDto> UpdateProductAsync(string id, ProductDto productDto)
     {
         if (string.IsNullOrEmpty(id)) throw new ArgumentNullException(nameof(id), "Error this data is required");
         if (productDto == null) throw new ArgumentNullException(nameof(productDto), "Error this data is required");
@@ -74,17 +75,15 @@ public class ProductService(IProductRepository repository) : IProductService
             var product = await _repository.GetByIdAsync(id);
             if (product == null) throw new Exception("Product not found");
 
-            product.Nombre = productDto.Nombre;
-            product.Descripcion = productDto.Descripcion;
-            product.Categoria = productDto.Categoria;
-            product.Imagen = productDto.Imagen;
-            product.Precio = productDto.Precio;
+            product.Name = productDto.Name;
+            product.Description = productDto.Description;
+            product.Category = productDto.Category;
+            product.Image = productDto.Image;
+            product.Price = productDto.Price;
             product.Stock = productDto.Stock;
-            product.Estado = productDto.Estado;
-            product.FechaCreacion = productDto.FechaCreacion;
-            product.UsuarioCreacion = productDto.UsuarioCreacion;
-            product.FechaModificacion = productDto.FechaModificacion;
-            product.UsuarioModificacion = productDto.UsuarioModificacion;
+            product.Status = productDto.Status;
+            product.ModificationDate = productDto.ModificationDate;
+            product.UserModification = productDto.UserModification ?? "System Default";
 
             var response = await _repository.UpdateAsync(product);
             return response == null ? throw new Exception("Product not updated") : MapToDto(response);
@@ -102,23 +101,23 @@ public class ProductService(IProductRepository repository) : IProductService
         return await _repository.DeleteAsync(id);
     }
 
-    private static ProductoDto MapToDto(Producto product)
+    private static ProductDto MapToDto(Product product)
     {
-        var response = new ProductoDto()
+        var response = new ProductDto()
         {
             Id = product.Id.ToString(),
-            Codigo = product.Codigo,
-            Nombre = product.Nombre,
-            Descripcion = product.Descripcion ?? string.Empty,
-            Categoria = product.Categoria ?? string.Empty,
-            Imagen = product.Imagen ?? string.Empty,
-            Precio = product.Precio,
+            Code = product.Code,
+            Name = product.Name,
+            Description = product.Description ?? string.Empty,
+            Category = product.Category ?? string.Empty,
+            Image = product.Image ?? string.Empty,
+            Price = product.Price,
             Stock = product.Stock,
-            Estado = product.Estado,
-            FechaCreacion = product.FechaCreacion,
-            UsuarioCreacion = product.UsuarioCreacion,
-            FechaModificacion = product.FechaModificacion,
-            UsuarioModificacion = product.UsuarioModificacion ?? string.Empty,
+            Status = product.Status,
+            CreationDate = product.CreationDate,
+            UserCreation = product.UserCreation,
+            ModificationDate = product.ModificationDate,
+            UserModification = product.UserModification ?? string.Empty,
         };
         return response;
     }

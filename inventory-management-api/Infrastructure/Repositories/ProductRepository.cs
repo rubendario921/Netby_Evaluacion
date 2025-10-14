@@ -8,11 +8,11 @@ namespace Infrastructure.Repositories;
 public class ProductRepository(ApplicationDbContext context) : IProductRepository
 {
     private readonly ApplicationDbContext _context = context;
-    public async Task<IEnumerable<Producto>> GetAllAsync()
+    public async Task<IEnumerable<Product>> GetAllAsync()
     {
         try
         {
-            return await _context.Productos.Where(p => p.Estado).OrderByDescending(p => p.FechaCreacion).ToListAsync();
+            return await _context.Products.Where(p => p.Status).OrderByDescending(p => p.CreationDate).ToListAsync();
         }
         catch (Exception ex)
         {
@@ -21,11 +21,11 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
         }
     }
 
-    public async Task<Producto?> GetByIdAsync(string id)
+    public async Task<Product?> GetByIdAsync(string id)
     {
         try
         {
-            return await _context.Productos.FirstOrDefaultAsync(p => p.Id.Equals(id));
+            return await _context.Products.FirstOrDefaultAsync(p => p.Id.Equals(id));
         }
         catch (Exception ex)
         {
@@ -34,11 +34,11 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
         }
     }
 
-    public async Task<Producto> CreateAsync(Producto product)
+    public async Task<Product> CreateAsync(Product product)
     {
         try
         {
-            _context.Productos.Add(product);
+            _context.Products.Add(product);
             await _context.SaveChangesAsync();
             return product;
         }
@@ -49,7 +49,7 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
         }
     }
 
-    public async Task<Producto> UpdateAsync(Producto product)
+    public async Task<Product> UpdateAsync(Product product)
     {
         try
         {
@@ -70,7 +70,7 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
         if (product == null)
             return false;
 
-        product.Estado = false;
+        product.Status = false;
         await UpdateAsync(product);
         return true;
     }

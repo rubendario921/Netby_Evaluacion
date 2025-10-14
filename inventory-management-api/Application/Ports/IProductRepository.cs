@@ -4,9 +4,9 @@ namespace Application.Ports;
 
 public interface IProductRepository
 {
-    Task<IEnumerable<Producto>> GetAllAsync();
-    Task<Producto?> GetByIdAsync(string id);
-    Task<Producto> CreateAsync(Producto product);
-    Task<Producto> UpdateAsync(Producto product);
+    Task<IEnumerable<Product>> GetAllAsync();
+    Task<Product?> GetByIdAsync(string id);
+    Task<Product> CreateAsync(Product product);
+    Task<Product> UpdateAsync(Product product);
     Task<bool> DeleteAsync(string id);
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/Application/Application.csproj": {}
+    "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Application/Application.csproj": {}
   },
   "projects": {
-    "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/Application/Application.csproj": {
+    "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/Application/Application.csproj",
+        "projectUniqueName": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/Application/Application.csproj",
-        "packagesPath": "/home/rdario921/.nuget/packages/",
-        "outputPath": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/Application/obj/",
+        "projectPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Application/Application.csproj",
+        "packagesPath": "/home/rubendario/.nuget/packages/",
+        "outputPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/rdario921/.nuget/NuGet/NuGet.Config"
+          "/home/rubendario/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/inventory-management-api.csproj": {
-                "projectPath": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/inventory-management-api.csproj"
+              "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj": {
+                "projectPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj"
               }
             }
           }
@@ -63,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/rdario921/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/rubendario/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/inventory-management-api.csproj": {
+    "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/inventory-management-api.csproj",
+        "projectUniqueName": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj",
         "projectName": "inventory-management-api",
-        "projectPath": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/inventory-management-api.csproj",
-        "packagesPath": "/home/rdario921/.nuget/packages/",
-        "outputPath": "/home/rdario921/Documentos/Developer/Netby---Evaluacion/inventory-management-api/obj/",
+        "projectPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj",
+        "packagesPath": "/home/rubendario/.nuget/packages/",
+        "outputPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/rdario921/.nuget/NuGet/NuGet.Config"
+          "/home/rubendario/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -163,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/rdario921/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/rubendario/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

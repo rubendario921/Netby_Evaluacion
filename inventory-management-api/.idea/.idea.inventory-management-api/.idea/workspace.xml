@@ -7,69 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3731b359-9bc3-44cf-879a-9bf9579d8f38" name="Changes" comment="Rename DTO classes, add Transaction service interfaces, and implement an empty TransactionService.">
-      <change afterPath="$PROJECT_DIR$/Application/Services/ITransactionService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Services/TransactionService.cs" afterDir="false" />
+    <list default="true" id="3731b359-9bc3-44cf-879a-9bf9579d8f38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Repositories/TransactionRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.inventory-management-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.inventory-management-api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/DTOs/ProductoDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/ProductDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/DTOs/TransaccionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DTOs/TransactionDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Ports/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Ports/IProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Ports/ITransaccionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Ports/ITransaccionRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Services/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/IProductService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Ports/ITransaccionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Ports/ITransactionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Services/ITransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/ITransactionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Services/TransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/TransactionService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net9.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Producto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Transaccione.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Transaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net9.0/Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/ApplicationDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/inventory-management-api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/inventory-management-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/inventory-management-api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/inventory-management-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/inventory-management-api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +43,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Application/DTOs/ProductoDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Application/DTOs/TransaccionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Application/Ports/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Application/Ports/ITransaccionRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/Ports/ITransactionRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Application/Services/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Application/Services/ITransactionService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Application/Services/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Application/Services/TransactionService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Domain/Entities/Producto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Domain/Entities/Transaccione.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Infrastructure/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Infrastructure/Repositories/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Repositories/TransactionRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -107,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.inventory-management-api: http.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -117,7 +79,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -148,7 +110,9 @@
       <updated>1760242567802</updated>
       <workItem from="1760242569109" duration="4001000" />
       <workItem from="1760411319101" duration="586000" />
-      <workItem from="1760411919615" duration="3128000" />
+      <workItem from="1760411919615" duration="3868000" />
+      <workItem from="1760493147929" duration="595000" />
+      <workItem from="1760493761358" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminación de archivos y configuración innecesarios para optimizar la estructura del proyecto.">
       <option name="closed" value="true" />
@@ -158,12 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760246497877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rename DTO classes, add Transaction service interfaces, and implement an empty TransactionService.">
+      <option name="closed" value="true" />
+      <created>1760415054884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760415054884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

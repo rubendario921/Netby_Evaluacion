@@ -8,6 +8,7 @@ namespace Infrastructure.Repositories;
 public class ProductRepository(ApplicationDbContext context) : IProductRepository
 {
     private readonly ApplicationDbContext _context = context;
+
     public async Task<IEnumerable<Product>> GetAllAsync()
     {
         try

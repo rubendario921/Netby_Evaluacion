@@ -1112,6 +1112,16 @@
           }
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "inventory-management-api/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -3003,6 +3013,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
     "inventory-management-api/1.0.0": {
       "type": "project",
       "path": "../inventory-management-api.csproj",
@@ -3011,6 +3026,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Domain >= 1.0.0",
       "inventory-management-api >= 1.0.0"
     ]
   },
@@ -3039,6 +3055,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Domain/Domain.csproj": {
+              "projectPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/Domain/Domain.csproj"
+            },
             "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj": {
               "projectPath": "/home/rubendario/Documentos/Dev 921/Netby_Evaluacion/inventory-management-api/inventory-management-api.csproj"
             }

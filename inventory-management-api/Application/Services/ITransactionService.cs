@@ -8,5 +8,5 @@ public interface ITransactionService
  Task<TransactionDto> GetTransactionByIdAsync(string id);
  Task<TransactionDto> CreateTransactionAsync(TransactionDto transactionDto);
  Task<TransactionDto> UpdateTransactionAsync(string id, TransactionDto transactionDto);
- Task<bool> DeleteTransactionAsync(int id);
+ Task<bool> DeleteTransactionAsync(string id);
 }

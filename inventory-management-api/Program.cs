@@ -13,10 +13,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 //Config Repository
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<ITransaccionRepository, TransaccionRepository>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 //Config Services
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<ITransaccionService, TransaccionService>();
+builder.Services.AddScoped<ITransactionService, TransactionService>();
 
 
 builder.Services.AddControllers();

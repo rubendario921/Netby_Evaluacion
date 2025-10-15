@@ -1,2 +1,2 @@
-# Netby---Evaluacion
+# Netby - Evaluacion
 EVALUACIÓN TÉCNICA DE CONOCIMIENTOS FULLSTACK .NET Y REACT O ANGULAR

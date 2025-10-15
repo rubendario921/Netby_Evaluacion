@@ -4,6 +4,15 @@ using Domain.Entities;
 
 namespace Application.Services;
 
+public interface IProductService
+{
+    Task<IEnumerable<ProductDto>> GetAllProductsAsync();
+    Task<ProductDto> GetProductByIdAsync(string id);
+    Task<ProductDto> CreateProductAsync(ProductDto productDto);
+    Task<ProductDto> UpdateProductAsync(string id, ProductDto productDto);
+    Task<bool> DeleteProductAsync(string id);
+}
+
 public class ProductService(IProductRepository repository) : IProductService
 {
     private readonly IProductRepository _repository = repository;
@@ -76,6 +85,7 @@ public class ProductService(IProductRepository repository) : IProductService
             if (product == null) throw new Exception("Product not found");
 
             product.Name = productDto.Name;
+            product.Code = productDto.Code;
             product.Description = productDto.Description;
             product.Category = productDto.Category;
             product.Image = productDto.Image;

@@ -25,11 +25,11 @@ public class ProductController : Controller
         return Ok(products);
     }
 
-    [HttpGet]
-    public async Task<ActionResult<ProductDto>> GetProductByIdAsync([FromBody] string id)
+    [HttpGet("{id}")] 
+    public async Task<ActionResult<ProductDto>> GetProductByIdAsync(string id)
     {
-        var product = await _productService.GetProductByIdAsync(id);
-        return Ok(product);
+        var response = await _productService.GetProductByIdAsync(id);
+        return Ok(response)  ;
     }
 
     [HttpPost]

@@ -1,6 +1,6 @@
 using Application.Ports;
-using Domain.Entities;
 using Infrastructure.Data;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;

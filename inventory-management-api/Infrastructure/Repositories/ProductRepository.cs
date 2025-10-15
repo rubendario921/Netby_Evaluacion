@@ -24,9 +24,11 @@ public class ProductRepository(ApplicationDbContext context) : IProductRepositor
 
     public async Task<Product?> GetByIdAsync(string id)
     {
+        if (string.IsNullOrEmpty(id)) throw new ArgumentNullException(nameof(id), "Error this data is required");
         try
         {
-            return await _context.Products.FirstOrDefaultAsync(p => p.Id.Equals(id));
+            var consultId = Guid.Parse(id);    
+            return await _context.Products.FirstOrDefaultAsync(p => p.Id.Equals(consultId));
         }
         catch (Exception ex)
         {
